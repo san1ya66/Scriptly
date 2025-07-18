@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Scriptly</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: 'Open Sans', sans-serif; background: #f0f4f5; color: #222; }
+    header { background: #0a3d62; color: white; padding: 80px 20px; text-align: center; }
+    header h1 { font-family: 'Playfair Display', serif; font-size: 3em; margin: 0; letter-spacing: 2px; }
+    header p { font-size: 1.3em; margin-top: 10px; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.5; }
+    .featured { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; padding: 50px 30px; max-width: 1200px; margin: auto; }
+    .book { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); text-align: center; transition: transform 0.3s; }
+    .book:hover { transform: translateY(-5px); }
+    .book img { width: 100%; height: 350px; object-fit: cover; border-radius: 8px; margin-bottom: 15px; }
+    .book h3 { color: #0a3d62; margin: 0 0 5px 0; }
+    .book p { color: #555; margin: 0 0 15px 0; }
+    .book a { display: inline-block; background: #38ada9; color: white; padding: 10px 20px; border-radius: 30px; text-decoration: none; font-weight: bold; transition: background 0.3s; }
+    .book a:hover { background: #0a3d62; }
+    .start-reading { display: block; width: 220px; margin: 50px auto; background: #38ada9; color: white; text-align: center; padding: 18px; text-decoration: none; border-radius: 50px; font-weight: bold; transition: background 0.3s; }
+    .start-reading:hover { background: #0a3d62; }
+    footer { text-align: center; padding: 25px; background: #2c3e50; color: #ccc; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Scriptly</h1>
+    <p>Discover Acclaimed Novels: A World of Literary Excellence Awaits.<br>Explore Award-Winning Novels: A Curated Selection of Literary Masterpieces.</p>
+  </header>
+
+  <section class="featured">
+    <div class="book">
+      <img src="https://upload.wikimedia.org/wikipedia/en/1/19/Peer-e-Kamil.jpg" alt="Peer-e-Kamil Cover">
+      <h3>Peer-e-Kamil</h3>
+      <p>By Umera Ahmed</p>
+      <a href="peer-e-kamil.html">Click Here</a>
+    </div>
+    <div class="book">
+      <img src="https://novelsgeo.com/wp-content/uploads/2023/02/Jannat-Kay-Pattay-By-Nimra-Ahmed.jpg" alt="Jannat Kay Pattay Cover">
+      <h3>Jannat Kay Pattay</h3>
+      <p>By Nimra Ahmed</p>
+      <a href="jannat-kay-pattay.html">Click Here</a>
+    </div>
+    <div class="book">
+      <img src="https://novelsgeo.com/wp-content/uploads/2023/01/Amar-Bail-By-Umera-Ahmed.jpg" alt="Amar Bail Cover">
+      <h3>Amar Bail</h3>
+      <p>By Umera Ahmed</p>
+      <a href="amar-bail.html">Click Here</a>
+    </div>
+  </section>
+
+  <a class="start-reading" href="genres.html">Start Reading</a>
+
+  <footer>&copy; 2025 Scriptly. All rights reserved.</footer>
+</body>
+</html>
+
